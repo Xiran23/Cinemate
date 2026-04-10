@@ -6,7 +6,7 @@ Cinemate is a modern, responsive movie discovery application built using React a
 
 ## 🚀 Live Demo
 
-🔗 https://your-live-link.netlify.app  
+🔗 https://chiranmovie.netlify.app/
 
 ---
 
