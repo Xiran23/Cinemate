@@ -20,13 +20,17 @@ export const MovieList = ({apiPath}) => {
 
   return (
     <main>
-      <section className='max-w-7xl mx-auto py-7'>
-        <div className='flex justify-start flex-wrap'>
+      <section className='max-w-7xl mx-auto py-7 px-4'>
+        <div className='flex flex-wrap justify-center gap-1'>
           {
            
-            movies.map((movie) => (
-              <Card key={movie.id} movie={movie} />
-            ))
+            movies && movies.length > 0 ? (
+              movies.map((movie) => (
+                <Card key={movie.id} movie={movie} />
+              ))
+            ) : (
+              <p className="text-center text-gray-500 dark:text-gray-400 py-10">No movies found</p>
+            )
           }
         </div>
       </section>

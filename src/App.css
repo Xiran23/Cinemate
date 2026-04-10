@@ -1,0 +1,17 @@
+.App {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+}
+
+.dark .App {
+  background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
+}
+
+main {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+}
+
+.dark main {
+  background: rgba(0, 0, 0, 0.3);
+}
