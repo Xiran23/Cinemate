@@ -11,16 +11,16 @@ export const Footer = () => {
     </span>
     <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
         <li>
-            <a href="#" className="hover:underline me-4 md:me-6" target='_blank'>Instagram</a>
+            <button type="button" className="hover:underline me-4 md:me-6" onClick={() => window.open('https://instagram.com', '_blank')}>Instagram</button>
         </li>
         <li>
-            <a href="#" className="hover:underline me-4 md:me-6" target='_blank'>LinkedIN</a>
+            <button type="button" className="hover:underline me-4 md:me-6" onClick={() => window.open('https://linkedin.com', '_blank')}>LinkedIN</button>
         </li>
         <li>
-            <a href="#" className="hover:underline me-4 md:me-6 target='_blank'">Youtube</a>
+            <button type="button" className="hover:underline me-4 md:me-6" onClick={() => window.open('https://youtube.com', '_blank')}>Youtube</button>
         </li>
         <li>
-            <a href="#" className="hover:underline" target='_blank'>Contact</a>
+            <button type="button" className="hover:underline" onClick={() => alert('Contact form coming soon!')}>Contact</button>
         </li>
     </ul>
     </div>
